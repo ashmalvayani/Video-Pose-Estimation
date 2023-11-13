@@ -14,11 +14,9 @@ This repository is taken as an inspiration from [here](https://github.com/hafiza
 
 ## Keypoints Comparision **HUMAN** model vs **BODY_25** model.
 
-![Image](images/keypoints.png)
-
 <p float="left">
-  <img src="images/keypoints.png" width="100" />
-  <img src="images/openpose-keypoints.png" width="100" /> 
+  <img src="images/keypoints.png"/>
+  <img src="images/openpose-keypoints.png"/> 
 </p>
 
 
