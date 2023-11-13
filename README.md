@@ -16,6 +16,12 @@ This repository is taken as an inspiration from [here](https://github.com/hafiza
 
 ![Image](images/keypoints.png)
 
+<p float="left">
+  <img src="images/keypoints.png" width="100" />
+  <img src="images/openpose-keypoints.png" width="100" /> 
+</p>
+
+
 | Serial No | mmpose Keypoints   | Modified openpose Keypoints |
 |-----------|--------------------|-----------------------------|
 | 0         | Nose               | Nose                        |
