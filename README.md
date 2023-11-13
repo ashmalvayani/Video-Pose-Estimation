@@ -41,3 +41,23 @@ This repository is taken as an inspiration from [here](https://github.com/hafiza
 | 23        |                    | Right Small Toe              |
 | 24        |                    | Right Heel                   |
 |           |                    | Background                   |
+
+## How to set up MMPOSE?
+To install mmpose, you need to first set up and install [mmaction2](https://github.com/open-mmlab/mmaction2).
+Use this [documentation](https://mmaction2.readthedocs.io/en/latest/get_started/installation.html) to install mmaction2.
+You can also directly use the steps mentioned below:
+1. conda create --name mmaction python=3.10 -y
+2. conda activate mmaction
+3. conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
+4. Install the following in sequence:
+  pip install -U openmim
+  mim install mmengine
+  mim install mmcv
+  mim install mmdet
+  mim install mmpose
+5. pip install mmaction2
+
+## How to run?
+Change the video_path in the code and run the following.
+```bash
+python pose.py
