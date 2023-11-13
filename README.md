@@ -15,7 +15,7 @@ This repository is taken as an inspiration from [here](https://github.com/hafiza
 ## Keypoints Comparision **HUMAN** model vs **BODY_25** model.
 1. Left: MMPose
 2. Right: OpenPose Keypoints
-<p float="left">
+<p float="center">
   <img src="images/keypoints.png" width="200" height="270"/>
   <img src="images/openpose-keypoints.png" width="200"/> 
 </p>
