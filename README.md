@@ -13,9 +13,10 @@ This repository is taken as an inspiration from [here](https://github.com/hafiza
 4. **Cost:** While OpenPose requires a non-refundable $25,000 USD annual royalty for commercial use, MMPose is freely available for commercial use under the Apache 2.0 license.
 
 ## Keypoints Comparision **HUMAN** model vs **BODY_25** model.
-
+1. Left: MMPose
+2. Right: OpenPose Keypoints
 <p float="left">
-  <img src="images/keypoints.png" width="200" height="250"/>
+  <img src="images/keypoints.png" width="200" height="270"/>
   <img src="images/openpose-keypoints.png" width="200"/> 
 </p>
 
