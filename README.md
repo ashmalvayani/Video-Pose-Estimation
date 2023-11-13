@@ -14,7 +14,7 @@ This repository is taken as an inspiration from [here](https://github.com/hafiza
 
 ## Keypoints Comparision **HUMAN** model vs **BODY_25** model.
 
-https://user-images.githubusercontent.com/100993824/227864552-489d03de-e1b8-4ca2-8ac1-80dd99826cb7.png
+![Image](images/pose-keypoints.png)
 
 | Serial No | mmpose Keypoints   | Modified openpose Keypoints |
 |-----------|--------------------|-----------------------------|
