@@ -13,6 +13,9 @@ This repository is taken as an inspiration from [here](https://github.com/hafiza
 4. **Cost:** While OpenPose requires a non-refundable $25,000 USD annual royalty for commercial use, MMPose is freely available for commercial use under the Apache 2.0 license.
 
 ## Keypoints Comparision **HUMAN** model vs **BODY_25** model.
+
+https://user-images.githubusercontent.com/100993824/227864552-489d03de-e1b8-4ca2-8ac1-80dd99826cb7.png
+
 | Serial No | mmpose Keypoints   | Modified openpose Keypoints |
 |-----------|--------------------|-----------------------------|
 | 0         | Nose               | Nose                        |
@@ -56,6 +59,15 @@ You can also directly use the steps mentioned below:
   mim install mmdet
   mim install mmpose
 5. pip install mmaction2
+
+## Pose Classification
+Just like the original repository, we are classifying four poses as follows:
+1. Hello 
+2. Stop gesture
+3. Sitting pose
+4. Standing pose
+   
+For the detailed methodology and rule-based approach description, read this [passage](https://github.com/hafizas101/Real-time-human-pose-estimation-and-classification#pose-classification).
 
 ## How to run?
 Change the video_path in the code and run the following.
